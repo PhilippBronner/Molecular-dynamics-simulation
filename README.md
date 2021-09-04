@@ -6,13 +6,11 @@ Furthermore the motion of the molecules in the stable droplet can be observed an
 
 The project consists of several parts. :
 
-- Cut selection in the Monte Carlo (MC) data, to separate the different particle types
-- Test of the selected cuts on the cummulative MC data.
-- t- and s- channel seperation for the electrons
-- Calculation of the total cross section of for the Z-boson, $ e^+e^- -> f \bar{f} $, for resulting in electrons, muons, tauons or hadronic particles.
-- Evaluations following from the crossestion, depending on the energy and fitted with a Breit-Wegner function.
-- Tests on the forward-backward asymmetry and $\sin^2(\theta_\text{W})$ in muon final states
-- Tests on the lepton universality.
+- Initialization of the melecular setup on a 3D grid
+- Equilibarion of the initial particles until the equilibrium constellation of a water droplet is reached.
+- The stable droplet envolves over a period of time and the trajectory is stored
+- Analysis: The collected data can be used to determine material parameters and functions as the radial-distribution function.
+- Visualization: The created "trajectroy.dump" files can be visulaized with programms as "OVITO".
 
 ## Installing Python
 
@@ -22,7 +20,7 @@ The project consists of several parts. :
 2. `conda env create` reads the `environment.yml` file in this
     repository, creates a new env and installs all necessary packages
     into it.
-3. Activate the new env: `conda activate z0-env`
+3. Activate the new env: `conda activate MD-sim-env`
 
 ### on linux
 
@@ -38,7 +36,11 @@ sudo apt-get install python3
 sudo apt-get install python3-pip
 ```
 
+
 3. Using pip to install spyder
+
+```
+python3 -m pip install spyder
 ```
 
 ## Installing python libraries
@@ -63,16 +65,14 @@ git clone https://github.com/lukasg96/z0-precisionmeasurement.git
 
 # Usage
 
-1. Start `jupyter-lab` (or `jupyter-notebook` if you prefer) in the
-    environment. This will usually open your browesr automatically.
+1. Start `spyder` and execute the file "Main_Water_Droplet_Philipp_Bronner.py". This can also be done in every other python compiler.
 
-2. navigate to the file `z0_experiment_Philipp_Bronner_Lukas_Grunwald.ipynb` in the repository and open in jupyter.
+2. The created "trejectory.dump" files can be opend with OVITO and the trajectory can be visulaized.
 
-3. Run the code cells from top to bottom (in order)
 
 # Contact
 
-Philipp Bronner: [philippbronner-at-t-online.de](http://philippbronner-at-t-online.de)
+Philipp Bronner: [philippbronner-at-t-online.de] (http://philippbronner-at-t-online.de)
 
 
 Project Link: https://github.com/PhilippBronner/Molecular-dynamics-simulation.git
