@@ -75,5 +75,4 @@ git clone https://github.com/lukasg96/z0-precisionmeasurement.git
 Philipp Bronner: [philippbronner-at-t-online.de](http://philippbronner-at-t-online.de)
 
 
-Project Link: https://github.com/lukasg96/z0-precisionmeasurement.git
-
+Project Link: https://github.com/PhilippBronner/Molecular-dynamics-simulation.git
