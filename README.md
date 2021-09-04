@@ -1,6 +1,9 @@
-# z0-precisionmeasurement
+# Water droplett
 
-Precision measurements and tests of the Standard Model using OPAL data at LEP. \\
+Molecular dynamics simulation of a water droplet. \\
+The evolution of the water molecules from an initial grid constellation to an equilibrium constellation can be observed. 
+Furthermore the motion of the molecules in the stable droplet can be observed and material parameters and functions can be extracted from this data.
+
 The project consists of several parts. :
 
 - Cut selection in the Monte Carlo (MC) data, to separate the different particle types
@@ -35,10 +38,7 @@ sudo apt-get install python3
 sudo apt-get install python3-pip
 ```
 
-3. Using pip to install jupyter
-
-```
-python3 -m pip install jupyter
+3. Using pip to install spyder
 ```
 
 ## Installing python libraries
@@ -46,8 +46,7 @@ python3 -m pip install jupyter
 1. Install the necessary python libraries using pip
 
 ```
-python3 -m pip install uproot
-python3 -m pip install awkward
+python3 -m pip install tqdm
 python3 -m pip install mplhep
 python3 -m pip install numpy
 python3 -m pip install matplotlib
@@ -73,11 +72,8 @@ git clone https://github.com/lukasg96/z0-precisionmeasurement.git
 
 # Contact
 
-FPII group nr: 8
-
 Philipp Bronner: [philippbronner-at-t-online.de](http://philippbronner-at-t-online.de)
 
-Lukas Grunwald: [lukas-at-grunwald-elzach.de](http://lukas-at-grunwald-elzach.de)
 
 Project Link: https://github.com/lukasg96/z0-precisionmeasurement.git
 
